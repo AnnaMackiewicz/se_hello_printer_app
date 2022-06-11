@@ -10,7 +10,7 @@ run:
 test:
 		PYTHONPATH=. py.test
 
-test verbose:
+test_verbose:
 		PYTHONPATH=. py.test --verbose -s
 
 lint:
