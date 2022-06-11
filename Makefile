@@ -11,7 +11,7 @@ test:
 		PYTHONPATH=. py.test
 
 test verbose:
-		PYTHONPATH= .py.test --verbose -s
+		PYTHONPATH=. py.test --verbose -s
 
 lint:
 		flake8 hello_world test
